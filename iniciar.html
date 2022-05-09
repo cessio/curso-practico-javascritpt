@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar</title>
+    <link rel="stylesheet" type="text/CSS" href="css/miestilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+
+</head>
+<body background="imagen/fondo.jpg">
+    <header class="cabecera">    
+        <a  href="index.html">
+            <img src = "imagen/logo1.png" height="80px">
+        </a>
+        <nav>
+            <a href="">
+                <span>Categoría </span>
+                <input list="categoría" placeholder="categoría">
+                <datalist id="categoría">
+                <option value="JAVA"></option>
+                <option value="JAVASCRIP"></option>
+                <option value="PHP"></option>
+                <option value="ESTADISTICA Y PROBABILIDADES"></option>
+                <option value="CALCULO VECTORIAL"></option>
+                <option value="CALCULO DIFERENCIAL"></option>
+            </select></a>
+            <a href="" class="buscar"><input  type="text" name="q" placeholder="Buscar"></a>
+            <a href=""><input type="submit" name="buscar" value="buscar"></a>
+            <a href=""><img src="imagen/compra2.png" id="logo1"></a>
+            <a href="">Iniciar sesión</a>
+            <a href=""><img src="imagen/mundo.jpg" id="logo2"></a>     
+        </nav>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <main>
+        <fieldset >
+                <h3 class="formato">¡Inicia sesión en tu cuenta!</h3>  
+                <div class="iniciar centrar">
+
+                    <div class="circulo">
+                        <img src="imagen/imagen/usuario111.png" class="imagen">
+                    </div>
+
+                    <div class="item-usario">
+                        Hola de nuevo, usuario
+                    </div>
+                    <br>
+                    <div class="item-usuario">
+                        <img src="imagen/usuaro.png" >
+                        <label>Nombre</label></td>
+                        <input type="text" name="nombre"><br>
+                    </div>
+
+                    <br>
+                    <div class="item-usuario">
+                        <label>Apellido</label>
+                        <input type="text" name="apellido"><br>
+                    </div>
+                    <br>
+
+                    <div class="item-usuario">
+                        <span>Genero</span>
+                        <input list="genero" placeholder="genero">
+                        <datalist id="genero">
+                        <option value="Femenino"></option>
+                        <option value="Masculino"></option>                     
+                    </div>
+
+                    <br>
+                    <div class="item-usuario">
+                        <span>Nacionalidad</span>
+                        <input list="nacionalidad" placeholder="nacionalidad">
+                        <datalist id="nacionalidad">
+                        <option value="Perú"></option>
+                        <option value="Argentina"></option>
+                        <option value="Chile"></option>
+                        <option value="Bolivia"></option>
+                        <option value="Uruguai"></option>
+                        <option value="etc"></option>
+                    </div>
+                    <br>
+                    <div class="item-usuario">
+                        <img src="imagen/sms.png">
+                        <label>Correo electrónico</label>
+                        <input type="email" name="Correo"><br> 
+                    </div>
+                    
+
+                    <div class="item-usuario">
+                        <div>
+                        <input type="checkbox" name="Leer">
+                             ¡Sí! Quiero aprovechar  AprendeOnly al máximo y recibir correos
+                            electrónicos con ofertas exclusivas, recomendaciones personales y 
+                            consejos de aprendizaje .
+                        </div>
+                    </div>
+                    
+
+                    <div class="item-usuario">
+                        <input type="submit" name="enviar" value="Registarse">
+                    </div> 
+                </div>      
+            </fieldset>
+   </main>
+    
+</body>
+</html>
